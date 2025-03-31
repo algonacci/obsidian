@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3c8061e12d4296d8",
+        "id": "19b9636b78244bff",
         "type": "tabs",
         "children": [
           {
-            "id": "29aa7d08b200d9d6",
+            "id": "aa07704e5d5d766d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Benchmarking Reasoning Model/Benchmarking Reasoning Model.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Benchmarking Reasoning Model"
+              "title": "New tab"
             }
           }
         ]
@@ -163,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "29aa7d08b200d9d6",
+  "active": "ee4c4c8d9dba2ca4",
   "lastOpenFiles": [
-    "Benchmarking Reasoning Model/Benchmarking Reasoning Model.pdf",
     "Benchmarking Reasoning Model/Benchmarking Reasoning Model.md",
+    "Benchmarking Reasoning Model/Benchmarking Reasoning Model.pdf",
     "Benchmarking Reasoning Model/Pasted image 20250301161216.png",
     "Qwen Models/Qwen Models.md",
     "Qwen Models",
