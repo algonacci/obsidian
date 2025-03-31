@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "19b9636b78244bff",
+        "id": "f3509962cf761ecd",
         "type": "tabs",
         "children": [
           {
-            "id": "aa07704e5d5d766d",
+            "id": "64fea18635dcb835",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -159,8 +159,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ee4c4c8d9dba2ca4",
+  "active": "64fea18635dcb835",
   "lastOpenFiles": [
+    "Mistral-OCR vs MarkItDown/Mistral-OCR vs MarkItDown.md",
     "Benchmarking Reasoning Model/Benchmarking Reasoning Model.md",
     "Benchmarking Reasoning Model/Benchmarking Reasoning Model.pdf",
     "Benchmarking Reasoning Model/Pasted image 20250301161216.png",

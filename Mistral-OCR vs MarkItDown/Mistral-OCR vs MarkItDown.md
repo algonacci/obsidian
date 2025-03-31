@@ -35,6 +35,26 @@
 |                 | Troff (.troff)            | ✅          | ❓                   |
 | **Arsip**       | ZIP                       | ❌          | ✅                   |
 
+## Contoh percabangan pemrosesan dokumen
+```python
+def proses_file(file_path):
+    ekstensi = dapatkan_ekstensi(file_path)
+    
+    # Format yang didukung Mistral OCR (format umum)
+    if ekstensi in ['.pdf', '.docx', '.rtf', '.odt', '.pptx', 
+                   '.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff',
+                   '.txt', '.xml']:
+        return proses_dengan_mistral_ocr(file_path)
+    
+    # Format yang didukung Microsoft Markitdown tapi tidak Mistral OCR
+    elif ekstensi in ['.xlsx', '.html', '.md', '.csv', '.json', '.zip']:
+        return proses_dengan_markitdown(file_path)
+    
+    # Format lainnya (default ke Markitdown)
+    else:
+        return proses_dengan_markitdown(file_path)
+```
+
 ## Catatan:
 
 - ✅: Format didukung
