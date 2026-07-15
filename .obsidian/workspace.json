@@ -11,12 +11,14 @@
             "id": "d6446c59f976994f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Benchmarking Reasoning Model/Benchmarking Reasoning Model.pdf"
+                "file": "Omniflow/Architecture Reference.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Benchmarking Reasoning Model"
+              "icon": "lucide-file",
+              "title": "Architecture Reference"
             }
           }
         ]
@@ -167,14 +169,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "887ed0f71e5e5d25",
+  "active": "d6446c59f976994f",
   "lastOpenFiles": [
+    "Untitled.base",
+    "AI Agents/Omniflow/Agent Execution.md",
+    "Benchmarking Reasoning Model/Benchmarking Reasoning Model.pdf",
     "Untitled",
     "AI Agents/Omniflow/Starter Template Rebranding.md",
     "AI Agents/Omniflow/Port Management.md",
     "AI Agents/General/Review Agent.md",
     "AI Agents/General/Project Initialization.md",
-    "AI Agents/Omniflow/Agent Execution.md",
     "AI Agents/README.md",
     "Omniflow/README.md",
     "Omniflow/AI Context (CLAUDE).md",
