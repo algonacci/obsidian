@@ -19,6 +19,7 @@ Referensi arsitektur dan dokumentasi untuk ekosistem **Omniflow-Starter** — se
 | [[Architecture Reference]] | Arsitektur | Tech stack, folder structure, module patterns, database, routing, views, auth, error handling (420 lines) |
 | [[Context Extraction (Audit)]] | Audit Report | Full audit semua layer: config, DB, helpers, middlewares, routes, views, services, workers (941 lines) |
 | [[AI Context (CLAUDE)]] | AI Context | Comprehensive AI agent documentation: semua fitur, security, caching, queue, logging (2199 lines) |
+| [[Template Changelog]] | Maintenance | Registry fix/improvement template dasar yang wajib di-backport ke semua modul + tabel rollout status per modul |
 
 ---
 
@@ -29,6 +30,7 @@ Referensi arsitektur dan dokumentasi untuk ekosistem **Omniflow-Starter** — se
 | [[Agent Execution]] | Build new module dari PRD mengikuti pola Omniflow-Starter |
 | [[Starter Template Rebranding]] | Rebrand starter template jadi module baru |
 | [[Port Management]] | Standarisasi port sesuai policy Omniflow |
+| [[Template Backport]] | Terapkan entry [[Template Changelog]] ke modul yang sedang dibuka |
 
 ---
 
