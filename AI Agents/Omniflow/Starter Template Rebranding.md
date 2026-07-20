@@ -200,6 +200,35 @@ git status
 
 ---
 
+## ⚠️ Pre-Push Safety Protocol (MANDATORY)
+
+> **BEFORE `git push`, always run these checks. Skipping = risk pushing to wrong remote.**
+
+```bash
+# 1. Verify remote URL
+echo "=== REMOTE ==="
+git remote -v
+echo ""
+
+# 2. Dry-run push
+echo "=== DRY RUN ==="
+git push --dry-run origin main
+echo ""
+
+# 3. Confirm with user / self-check
+echo "=== CONFIRM ==="
+echo "Push destination URL above. Is it the correct target repo?"
+echo "(e.g. Omniflow-Clients/ONNI-Group — NOT Omniflow-id/Omniflow-Starter)"
+```
+
+**Red flags** (STOP and fix remote first):
+- 🚩 Origin points to source repo (e.g. you cloned a template but origin = template repo)
+- 🚩 Origin in shared/central org that should be read-only
+- 🚩 Origin URL typo (Omniflow-id vs Omniflow-Clients)
+- 🚩 First commit on origin is NOT an "Initial commit" (LICENSE + README only)
+
+**See**: [[../Lessons Learned/Wrong-Push Incident (2026-07-20)|Wrong-Push Incident]] for full postmortem.
+
 ## Finalization
 
 Create single atomic commit:
